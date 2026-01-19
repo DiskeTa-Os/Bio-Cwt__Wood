@@ -38,6 +38,7 @@ body {
     display: flex;
     gap: 80px;
     list-style: none;
+    z-index:3;
 }
 
 .zero__link {
@@ -1070,5 +1071,6 @@ body {
         width: 600px;
         z-index: -1;
     }
+
 
 }
