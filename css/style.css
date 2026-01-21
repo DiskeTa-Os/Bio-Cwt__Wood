@@ -23,6 +23,7 @@ body {
 .zero__logo {
     display: flex;
     position: relative;
+    z-index: 1;
 }
 
 .zero__logo-text {
@@ -38,19 +39,30 @@ body {
     display: flex;
     gap: 80px;
     list-style: none;
-    z-index:3;
+    z-index: 3;
 }
 
 .zero__link {
     color: white;
     text-decoration: none;
     font-size: 20px;
-    z-index:3;
+    z-index: 3;
 }
 
 .zero__upr {
     display: none;
 }
+
+/* ??? */
+
+body {
+
+    background-image: url(/img/linii/Group.png);
+    background-position: center;
+    background-size: cover;
+
+}
+
 
 /* Hero block */
 
@@ -72,6 +84,7 @@ body {
     width: 1205px;
     border-radius: 43px 0px 0px 43px;
     padding: 60px 60px;
+    z-index: 1;
 }
 
 .hero-block__card {
@@ -143,11 +156,6 @@ body {
     position: absolute;
     margin-top: -150px;
     width: 100%;
-}
-
-.wood-main__linii {
-    width: 100%;
-    height: 6900px;
 }
 
 /* wood vibor */
@@ -369,6 +377,7 @@ body {
     align-items: center;
     margin-top: 260px;
     gap: 130px;
+    padding-bottom: 100px;
 }
 
 .any-quest__zagolovok {
@@ -472,7 +481,7 @@ body {
 /* footer */
 
 .wood-footer {
-    margin-top: 100px;
+
     width: 100%;
     height: 301px;
     background-color: #222021;
@@ -1073,6 +1082,1282 @@ body {
         z-index: -1;
     }
 
+    .wood-footer__contact {
+        display: flex;
+        flex-direction: column;
+
+        margin-top: -10px;
+    }
+
+    .wood-footer {
+        gap: 120px;
+
+    }
+
+    .any-quest__text {
+        font-size: 29px;
+        color: white;
+        margin-left: 10px;
+        font-weight: 300;
+    }
+
+    .wood-main__linii {
+        width: 100%;
+        height: 7780px;
+    }
+
+    .any-quest {
+        padding: 20px;
+    }
+
+    .any-quest__name {
+        width: 506px;
+        height: 80px;
+        border-radius: 100px;
+        border: 2px solid #728BAD;
+        background-color: #222021;
+        outline: none;
+        padding: 0px 30px;
+        font-size: 20px;
+        z-index: 2;
+    }
+
+    .any-quest__tel {
+        width: 506px;
+        height: 80px;
+        border-radius: 100px;
+        border: 2px solid #728BAD;
+        background-color: #222021;
+        outline: none;
+        padding: 0px 30px;
+        font-size: 20px;
+        z-index: 2;
+    }
+
+    .any-quest__question {
+        width: 506px;
+        height: 257px;
+        border-radius: 42px;
+        border: 2px solid #728BAD;
+        background-color: #222021;
+        outline: none;
+        padding: 30px 30px;
+        font-size: 20px;
+        color: white;
+        max-height: 257px;
+        max-width: 506px;
+        min-height: 257px;
+        min-width: 506px;
+        z-index: 2;
+
+    }
+
+    .any-quest__button {
+        width: 216px;
+        height: 58px;
+        background-color: #728BAD;
+        color: white;
+        font-size: 25px;
+        border-radius: 100px;
+        border: none;
+        margin-top: 10px;
+        z-index: 2;
+    }
+}
+
+@media screen and (max-width:670px) {
+    .hero-block__card {
+        background-color: #1E0C06;
+        height: 404px;
+        width: 400px;
+        border-radius: 43px 0px 0px 43px;
+        padding: 60px 60px;
+        z-index: 1;
+    }
+
+    .hero-block__text-mini {
+        color: #FFDBBB;
+        font-size: 20px;
+        margin-top: 20px;
+        font-weight: 300;
+    }
+
+    .hero-block__jirni {
+        font-weight: 400;
+    }
+
+    .hero-block__text {
+        color: white;
+        font-size: 52px;
+        text-transform: uppercase;
+        font-weight: 400;
+    }
+
+    .hero-block__card {
+        background-color: #1E0C06;
+        border-radius: 43px 0px 0px 43px;
+        padding: 30px 30px;
+        z-index: 1;
+    }
+
+    .hero-block__linia {
+        height: 1px;
+        width: 341px;
+        background-color: white;
+        margin-right: 30px;
+        position: absolute;
+        margin-top: 230px;
+    }
+
+    .hero-block__order {
+        width: 225px;
+        height: 48px;
+        background-color: #728BAD;
+        margin-top: 70px;
+        color: white;
+        font-size: 20px;
+        border-radius: 100px;
+        border: none;
+        margin-left: 55px;
+    }
+
+    .hero-block__back-img {
+        position: absolute;
+        margin-top: -130px;
+        z-index: -1;
+        width: 500px;
+        height: 800px;
+    }
+
+    .wood-vibor__zaglav {
+        font-size: 60px;
+        color: white;
+        font-weight: 400;
+        margin-left: 103px;
+    }
+
+    .our-work__zaglav {
+        font-size: 60px;
+        color: white;
+        font-weight: 400;
+    }
+
+    .our-work {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 120px;
+
+    }
+
+    .our-work__kuhna {
+        width: 500px;
+    }
+
+    .advantages__zaglav {
+        font-size: 50px;
+        color: white;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+
+    .advantages {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 160px;
+        gap: 100px;
+    }
+
+    .advantages__card-options-verh {
+        font-size: 50px;
+        display: flex;
+        padding: 0px 80px;
+        text-align: start;
+        width: 100%;
+    }
+
+    .advantages__card-text {
+        font-size: 20px;
+    }
+
+    .advantages__card-image {
+        width: 500px;
+    }
+
+    .advantages__buton {
+        width: 361px;
+        height: 48px;
+        background-color: #728BAD;
+        color: white;
+        font-size: 20px;
+        border-radius: 100px;
+        border: none;
+    }
+
+    .about-us__card {
+        background-color: #1E0C06;
+        height: 954px;
+        width: 505px;
+        border-radius: 0px 43px 43px 0px;
+        padding: 20px 0px;
+        -webkit-box-shadow: 3px 0px 12px -3px rgba(255, 255, 255, 1);
+        -moz-box-shadow: 3px 0px 12px -3px rgba(255, 255, 255, 1);
+        box-shadow: 3px 0px 12px -3px rgba(255, 255, 255, 1);
+    }
+
+    .about-us__title {
+        width: 475px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin-left: 30px;
+    }
+
+    .about-us__text {
+        font-size: 24px;
+        color: white;
+        margin-left: 10px;
+        font-weight: 300;
+    }
+
+    .about-us__zagolovok {
+        font-size: 64px;
+        color: white;
+        font-weight: 400;
+        text-transform: uppercase;
+        margin-left: 40px;
+    }
+
+    .about-us__person-verh {
+        width: 180px;
+        margin-top: 50px;
+        margin-left: 280px;
+    }
+
+    .about-us__person-centr {
+        width: 280px;
+        margin-top: 90px;
+        margin-left: 40px;
+    }
+
+    .about-us__person-niz {
+        width: 180px;
+        margin-top: 410px;
+        margin-left: 240px;
+    }
+
+    .any-quest__zagolovok {
+        font-size: 60px;
+        color: white;
+        font-weight: 400;
+        margin-left: 30px;
+        text-transform: uppercase;
+
+    }
+
+    .any-quest__name {
+        width: 456px;
+        height: 80px;
+        border-radius: 30px;
+        border: 2px solid #728BAD;
+        background-color: #222021;
+        outline: none;
+        padding: 0px 30px;
+        font-size: 20px;
+        z-index: 2;
+    }
+
+    .any-quest__tel {
+        width: 456px;
+        height: 80px;
+        border-radius: 30px;
+        border: 2px solid #728BAD;
+        background-color: #222021;
+        outline: none;
+        padding: 0px 30px;
+        font-size: 17px;
+        z-index: 2;
+    }
+
+    .any-quest__question {
+        width: 456px;
+        height: 257px;
+        border-radius: 32px;
+        border: 2px solid #728BAD;
+        background-color: #222021;
+        outline: none;
+        padding: 30px 30px;
+        font-size: 20px;
+        color: white;
+        max-height: 257px;
+        max-width: 456px;
+        min-height: 257px;
+        min-width: 456px;
+        z-index: 2;
+
+    }
+
+    .any-quest__button {
+        width: 216px;
+        height: 58px;
+        background-color: #728BAD;
+        color: white;
+        font-size: 25px;
+        border-radius: 100px;
+        border: none;
+        margin-top: 10px;
+        z-index: 2;
+    }
+
+    .any-quest__text {
+        font-size: 25px;
+        color: white;
+        margin-left: 10px;
+        font-weight: 300;
+    }
+}
+
+@media screen and (max-width:590px) {
+
+    .hero-block__card {
+        background-color: #1E0C06;
+        height: 404px;
+        width: 400px;
+        border-radius: 43px 0px 0px 43px;
+        padding: 60px 60px;
+        z-index: 1;
+    }
+
+    .hero-block__text-mini {
+        color: #FFDBBB;
+        font-size: 20px;
+        margin-top: 20px;
+        font-weight: 300;
+    }
+
+    .hero-block__jirni {
+        font-weight: 400;
+    }
+
+    .hero-block__text {
+        color: white;
+        font-size: 52px;
+        text-transform: uppercase;
+        font-weight: 400;
+    }
+
+    .hero-block__card {
+        background-color: #1E0C06;
+        border-radius: 43px 0px 0px 43px;
+        padding: 30px 30px;
+        z-index: 1;
+    }
+
+    .hero-block__linia {
+        height: 1px;
+        width: 341px;
+        background-color: white;
+        margin-right: 30px;
+        position: absolute;
+        margin-top: 230px;
+    }
+
+    .hero-block__order {
+        width: 225px;
+        height: 48px;
+        background-color: #728BAD;
+        margin-top: 70px;
+        color: white;
+        font-size: 20px;
+        border-radius: 100px;
+        border: none;
+        margin-left: 55px;
+    }
+
+    .hero-block__back-img {
+        position: absolute;
+        margin-top: -130px;
+        z-index: -1;
+        width: 500px;
+        height: 800px;
+    }
+
+    .wood-vibor__zaglav {
+        font-size: 60px;
+        color: white;
+        font-weight: 400;
+        margin-left: 23px;
+    }
+
+    .our-work__zaglav {
+        font-size: 55px;
+        color: white;
+        font-weight: 400;
+        margin-left: 30px;
+    }
+
+    .our-work {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 120px;
+
+    }
+
+    .our-work__kuhna {
+        width: 450px;
+    }
+
+    .advantages__zaglav {
+        font-size: 47px;
+        color: white;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+
+    .advantages {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 160px;
+        gap: 100px;
+    }
+
+    .advantages__card-options-verh {
+        font-size: 50px;
+        display: flex;
+        padding: 0px 80px;
+        text-align: start;
+        width: 100%;
+    }
+
+    .advantages__card-text {
+        font-size: 20px;
+    }
+
+    .advantages__card-image {
+        width: 450px;
+        margin-left: 20px;
+    }
+
+    .advantages__buton {
+        width: 361px;
+        height: 48px;
+        background-color: #728BAD;
+        color: white;
+        font-size: 20px;
+        border-radius: 100px;
+        border: none;
+    }
+
+    .about-us__card {
+        background-color: #1E0C06;
+        height: 844px;
+        width: 425px;
+        border-radius: 0px 43px 43px 0px;
+        padding: 20px 0px;
+        -webkit-box-shadow: 3px 0px 12px -3px rgba(255, 255, 255, 1);
+        -moz-box-shadow: 3px 0px 12px -3px rgba(255, 255, 255, 1);
+        box-shadow: 3px 0px 12px -3px rgba(255, 255, 255, 1);
+    }
+
+    .about-us__title {
+        width: 475px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin-left: 30px;
+    }
+
+    .about-us__text {
+        font-size: 20px;
+        color: white;
+        margin-left: 10px;
+        font-weight: 300;
+    }
+
+    .about-us__zagolovok {
+        font-size: 54px;
+        color: white;
+        font-weight: 400;
+        text-transform: uppercase;
+        margin-left: 20px;
+    }
+
+    .about-us__person-verh {
+        width: 170px;
+        margin-top: 50px;
+        margin-left: 210px;
+    }
+
+    .about-us__person-centr {
+        width: 240px;
+        margin-top: 90px;
+        margin-left: 20px;
+    }
+
+    .about-us__person-niz {
+        width: 170px;
+        margin-top: 350px;
+        margin-left: 210px;
+    }
+
+    .any-quest__zagolovok {
+        font-size: 50px;
+        color: white;
+        font-weight: 400;
+        margin-left: 0px;
+        text-transform: uppercase;
+
+    }
+
+    .any-quest__name {
+        width: 406px;
+        height: 80px;
+        border-radius: 30px;
+        border: 2px solid #728BAD;
+        background-color: #222021;
+        outline: none;
+        padding: 0px 30px;
+        font-size: 17px;
+        z-index: 2;
+    }
+
+    .any-quest__tel {
+        width: 406px;
+        height: 80px;
+        border-radius: 30px;
+        border: 2px solid #728BAD;
+        background-color: #222021;
+        outline: none;
+        padding: 0px 30px;
+        font-size: 17px;
+        z-index: 2;
+    }
+
+    .any-quest__question {
+        width: 406px;
+        height: 257px;
+        border-radius: 32px;
+        border: 2px solid #728BAD;
+        background-color: #222021;
+        outline: none;
+        padding: 30px 30px;
+        font-size: 20px;
+        color: white;
+        max-height: 257px;
+        max-width: 406px;
+        min-height: 257px;
+        min-width: 406px;
+        z-index: 2;
+
+    }
+
+    .any-quest__button {
+        width: 206px;
+        height: 58px;
+        background-color: #728BAD;
+        color: white;
+        font-size: 22px;
+        border-radius: 100px;
+        border: none;
+        margin-top: 10px;
+        z-index: 2;
+    }
+
+    .any-quest__text {
+        font-size: 22px;
+        color: white;
+        margin-left: 10px;
+        font-weight: 300;
+    }
+    .any-quest {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 210px;
+        gap: 130px;
+        padding-bottom: 100px;
+    }
 
 }
 
+@media screen and (max-width:530px) {
+    .zero {
+        display: flex;
+        padding: 20px 10px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .zero__logo-img{
+        width: 50px;
+    }
+    .zero__logo {
+        display: flex;
+        position: relative;
+        z-index: 1;
+    }
+    .zero__logo-text {
+        color: white;
+        font-size: 23px;
+        position: absolute;
+        margin-left: 55px;
+        margin-top: -3.5px;
+    
+    }
+    .hero-block__card {
+        background-color: #1E0C06;
+        height: 404px;
+        width: 300px;
+        border-radius: 43px 0px 0px 43px;
+        padding: 20px 20px;
+        z-index: 1;
+    }
+
+    .hero-block__text-mini {
+        color: #FFDBBB;
+        font-size: 15px;
+        margin-top: 20px;
+        font-weight: 300;
+    }
+
+    .hero-block__jirni {
+        font-weight: 400;
+    }
+
+    .hero-block__text {
+        color: white;
+        font-size: 42px;
+        text-transform: uppercase;
+        font-weight: 400;
+    }
+
+    .hero-block__card {
+        background-color: #1E0C06;
+        border-radius: 43px 0px 0px 43px;
+        padding: 30px 30px;
+        z-index: 1;
+    }
+
+    .hero-block__linia {
+        height: 1px;
+        width: 240px;
+        background-color: white;
+        margin-right: 30px;
+        position: absolute;
+        margin-top: 180px;
+    }
+
+    .hero-block__order {
+        width: 225px;
+        height: 48px;
+        background-color: #728BAD;
+        margin-top: 50px;
+        color: white;
+        font-size: 20px;
+        border-radius: 100px;
+        border: none;
+        margin-left:25px;
+    }
+
+    .hero-block__back-img {
+        position: absolute;
+        margin-top: -130px;
+        z-index: -1;
+        width: 400px;
+        height: 800px;
+    }
+
+    .wood-vibor__zaglav {
+        font-size: 50px;
+        color: white;
+        font-weight: 400;
+        margin-left: 23px;
+    }
+
+    .our-work__zaglav {
+        font-size: 50px;
+        color: white;
+        font-weight: 400;
+        margin-left: 0px;
+    }
+
+    .our-work {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 120px;
+
+    }
+
+    .our-work__kuhna {
+        width: 400px;
+    }
+
+    .advantages__zaglav {
+        font-size: 41px;
+        color: white;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+
+    .advantages {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 160px;
+        gap: 100px;
+    }
+
+    .advantages__card-options-verh {
+        font-size: 50px;
+        display: flex;
+        padding: 0px 80px;
+        text-align: start;
+        width: 100%;
+    }
+
+    .advantages__card-text {
+        font-size: 20px;
+    }
+
+    .advantages__card-image {
+        width: 400px;
+        margin-left: 20px;
+    }
+
+    .advantages__buton {
+        width: 301px;
+        height: 48px;
+        background-color: #728BAD;
+        color: white;
+        font-size: 20px;
+        border-radius: 100px;
+        border: none;
+        margin-top: -30px;
+    }
+
+    .about-us__card {
+        background-color: #1E0C06;
+        height: 844px;
+        width: 425px;
+        border-radius: 0px 43px 43px 0px;
+        padding: 20px 0px;
+        -webkit-box-shadow: 3px 0px 12px -3px rgba(255, 255, 255, 1);
+        -moz-box-shadow: 3px 0px 12px -3px rgba(255, 255, 255, 1);
+        box-shadow: 3px 0px 12px -3px rgba(255, 255, 255, 1);
+    }
+
+    .about-us__title {
+        width: 475px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin-left: 30px;
+    }
+
+    .about-us__text {
+        font-size: 20px;
+        color: white;
+        margin-left: 10px;
+        font-weight: 300;
+    }
+
+    .about-us__zagolovok {
+        font-size: 54px;
+        color: white;
+        font-weight: 400;
+        text-transform: uppercase;
+        margin-left: 20px;
+        width: 100%;
+    }
+
+    .about-us__person-verh {
+        width: 170px;
+        margin-top: 50px;
+        margin-left: 210px;
+    }
+
+    .about-us__person-centr {
+        width: 240px;
+        margin-top: 90px;
+        margin-left: 20px;
+    }
+
+    .about-us__person-niz {
+        width: 170px;
+        margin-top: 350px;
+        margin-left: 210px;
+    }
+
+    .any-quest__zagolovok {
+        font-size: 50px;
+        color: white;
+        font-weight: 400;
+        margin-left: 0px;
+        text-transform: uppercase;
+
+    }
+
+    .any-quest__name {
+        width: 406px;
+        height: 80px;
+        border-radius: 30px;
+        border: 2px solid #728BAD;
+        background-color: #222021;
+        outline: none;
+        padding: 0px 30px;
+        font-size: 17px;
+        z-index: 2;
+    }
+
+    .any-quest__tel {
+        width: 406px;
+        height: 80px;
+        border-radius: 30px;
+        border: 2px solid #728BAD;
+        background-color: #222021;
+        outline: none;
+        padding: 0px 30px;
+        font-size: 17px;
+        z-index: 2;
+    }
+
+    .any-quest__question {
+        width: 406px;
+        height: 257px;
+        border-radius: 32px;
+        border: 2px solid #728BAD;
+        background-color: #222021;
+        outline: none;
+        padding: 30px 30px;
+        font-size: 20px;
+        color: white;
+        max-height: 257px;
+        max-width: 406px;
+        min-height: 257px;
+        min-width: 406px;
+        z-index: 2;
+
+    }
+
+    .any-quest__button {
+        width: 206px;
+        height: 58px;
+        background-color: #728BAD;
+        color: white;
+        font-size: 22px;
+        border-radius: 100px;
+        border: none;
+        margin-top: 10px;
+        z-index: 2;
+    }
+
+    .any-quest__text {
+        font-size: 22px;
+        color: white;
+        margin-left: 10px;
+        font-weight: 300;
+    }
+    .any-quest {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 210px;
+        gap: 130px;
+        padding-bottom: 100px;
+    }
+    .wood-footer__contact {
+        display: flex;
+        flex-direction: column;
+
+        margin-top: -10px;
+    }
+
+    .wood-footer {
+        gap: 50px;
+
+    }
+    .about-us__title {
+        width: 385px;
+    }
+}
+@media screen and (max-width:460px) {
+    .zero {
+        display: flex;
+        padding: 20px 10px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .zero__logo-img{
+        width: 50px;
+    }
+    .zero__logo {
+        display: flex;
+        position: relative;
+        z-index: 1;
+    }
+    .zero__logo-text {
+        color: white;
+        font-size: 23px;
+        position: absolute;
+        margin-left: 55px;
+        margin-top: -3.5px;
+    
+    }
+    .hero-block__card {
+        background-color: #1E0C06;
+        height: 404px;
+        width: 300px;
+        border-radius: 43px 0px 0px 43px;
+        padding: 20px 20px;
+        z-index: 1;
+    }
+
+    .hero-block__text-mini {
+        color: #FFDBBB;
+        font-size: 15px;
+        margin-top: 20px;
+        font-weight: 300;
+    }
+
+    .hero-block__jirni {
+        font-weight: 400;
+    }
+
+    .hero-block__text {
+        color: white;
+        font-size: 42px;
+        text-transform: uppercase;
+        font-weight: 400;
+    }
+
+    .hero-block__card {
+        background-color: #1E0C06;
+        border-radius: 43px 0px 0px 43px;
+        padding: 30px 30px;
+        z-index: 1;
+    }
+
+    .hero-block__linia {
+        height: 1px;
+        width: 240px;
+        background-color: white;
+        margin-right: 30px;
+        position: absolute;
+        margin-top: 180px;
+    }
+
+    .hero-block__order {
+        width: 225px;
+        height: 48px;
+        background-color: #728BAD;
+        margin-top: 50px;
+        color: white;
+        font-size: 20px;
+        border-radius: 100px;
+        border: none;
+        margin-left:25px;
+    }
+
+    .hero-block__back-img {
+        position: absolute;
+        margin-top: -130px;
+        z-index: -1;
+        width: 280px;
+        height: 800px;
+    }
+
+    .wood-vibor__zaglav {
+        font-size: 40px;
+        color: white;
+        font-weight: 400;
+        margin-left: 23px;
+    }
+
+    .our-work__zaglav {
+        font-size: 50px;
+        color: white;
+        font-weight: 400;
+        margin-left: 0px;
+    }
+
+    .our-work {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 120px;
+
+    }
+
+    .our-work__kuhna {
+        width: 310px;
+    }
+
+    .advantages__zaglav {
+        font-size: 31px;
+        color: white;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+
+    .advantages {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 160px;
+        gap: 100px;
+    }
+
+    .advantages__card-options-verh {
+        font-size: 50px;
+        display: flex;
+        padding: 0px 80px;
+        text-align: start;
+        width: 100%;
+    }
+
+    .advantages__card-text {
+        font-size: 20px;
+    }
+    .about-us {
+        width: 100%;
+    }
+
+    .advantages__card-image {
+        width: 320px;
+        margin-left: 0px;
+    }
+
+    .advantages__buton {
+        width: 301px;
+        height: 48px;
+        background-color: #728BAD;
+        color: white;
+        font-size: 20px;
+        border-radius: 100px;
+        border: none;
+        margin-top: -30px;
+    }
+
+    .about-us__card {
+        background-color: #1E0C06;
+        height: 804px;
+        width: 340px;
+        border-radius: 0px 43px 43px 0px;
+        padding: 20px 0px;
+        -webkit-box-shadow: 3px 0px 12px -3px rgba(255, 255, 255, 1);
+        -moz-box-shadow: 3px 0px 12px -3px rgba(255, 255, 255, 1);
+        box-shadow: 3px 0px 12px -3px rgba(255, 255, 255, 1);
+    }
+
+    .about-us__title {
+        width: 305px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin-left: 0px;
+        width: 320px;
+    }
+
+    .about-us__text {
+        font-size: 20px;
+        color: white;
+        margin-left: 10px;
+        font-weight: 300;
+        width: 320px;
+    }
+
+    .about-us__zagolovok {
+        font-size: 54px;
+        color: white;
+        font-weight: 400;
+        text-transform: uppercase;
+        margin-left: 20px;
+        width: 100%;
+        width: 320px;
+    }
+
+    .about-us__person-verh {
+        width: 120px;
+        margin-top: 50px;
+        margin-left: 190px;
+    }
+
+    .about-us__person-centr {
+        width: 200px;
+        margin-top: 90px;
+        margin-left:20px;
+    }
+
+    .about-us__person-niz {
+        width: 120px;
+        margin-top: 350px;
+        margin-left: 190px;
+    }
+
+    .any-quest__zagolovok {
+        font-size: 35px;
+        color: white;
+        font-weight: 400;
+        margin-left: 0px;
+        text-transform: uppercase;
+
+    }
+
+    .any-quest__name {
+        width: 326px;
+        height: 80px;
+        border-radius: 30px;
+        border: 2px solid #728BAD;
+        background-color: #222021;
+        outline: none;
+        padding: 0px 30px;
+        font-size: 17px;
+        z-index: 2;
+    }
+
+    .any-quest__tel {
+        width: 326px;
+        height: 80px;
+        border-radius: 30px;
+        border: 2px solid #728BAD;
+        background-color: #222021;
+        outline: none;
+        padding: 0px 30px;
+        font-size: 17px;
+        z-index: 2;
+    }
+
+    .any-quest__question {
+        width: 326px;
+        height: 257px;
+        border-radius: 32px;
+        border: 2px solid #728BAD;
+        background-color: #222021;
+        outline: none;
+        padding: 30px 30px;
+        font-size: 20px;
+        color: white;
+        max-height: 257px;
+        max-width: 326px;
+        min-height: 257px;
+        min-width: 326px;
+        z-index: 2;
+
+    }
+
+    .any-quest__button {
+        width: 206px;
+        height: 58px;
+        background-color: #728BAD;
+        color: white;
+        font-size: 22px;
+        border-radius: 100px;
+        border: none;
+        margin-top: 10px;
+        z-index: 2;
+    }
+
+    .any-quest__text {
+        font-size: 22px;
+        color: white;
+        margin-left: 10px;
+        font-weight: 300;
+    }
+    .any-quest {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 210px;
+        gap: 130px;
+        padding-bottom: 100px;
+    }
+    .wood-footer__contact {
+        display: flex;
+        flex-direction: column;
+
+        margin-top: -10px;
+    }
+
+    .wood-footer {
+        gap: 50px;
+
+    }
+    .about-us__title {
+        width: 385px;
+    }
+
+
+
+    
+    .wood-footer {
+
+        width: 100%;
+        height: 301px;
+        background-color: #222021;
+        -webkit-box-shadow: -8px 54px 44px 47px rgba(255, 255, 255, 1);
+        -moz-box-shadow: -8px 54px 44px 47px rgba(255, 255, 255, 1);
+        box-shadow: -8px 54px 44px 47px rgba(255, 255, 255, 1);
+        padding: 30px 30px;
+        display: flex;
+        gap: 0px;
+    }
+    
+    .wood-footer__logo {
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+    }
+    
+    .wood-footer__text {
+        color: white;
+        font-size: 20px;
+        text-decoration: none;
+    }
+    
+    .wood-footer__number {
+        color: white;
+        font-size: 14px;
+        align-items: center;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+        .wood-footer__contact {
+        display: flex;
+        flex-direction: column;
+        margin-top: -10px;
+    }
+
+    .wood-footer {
+        gap: 10px;
+
+    }
+    .about-us__title {
+        width: 300px;
+    }
+}
